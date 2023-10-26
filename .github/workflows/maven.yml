@@ -53,7 +53,7 @@ jobs:
     - name: Set up Java
       uses: actions/setup-java@v3
       with:
-        java-version: '11'  # You can specify your desired Java version here
+        java-version: '1.8'  # You can specify your desired Java version here
         distribution: 'temurin' #other option distribution: 'adopt' ref. https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
         
     - name: Build with Maven
