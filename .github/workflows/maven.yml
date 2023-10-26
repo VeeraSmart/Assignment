@@ -62,8 +62,5 @@ jobs:
     - name: Run Maven tests
       run: mvn test  # Run Maven tests
       
-    - name: Set up Docker
-      uses: docker/setup-buildx-action@v3
 
-    - name: Dockerize application
    
