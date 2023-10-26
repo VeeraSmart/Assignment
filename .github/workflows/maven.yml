@@ -4,7 +4,7 @@ name: Maven Build and Test
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:      
 
 jobs:
