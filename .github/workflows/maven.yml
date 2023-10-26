@@ -67,7 +67,7 @@ jobs:
 
     - name: Dockerize application
       run: |
-        docker build -t VeeraSmart/Assignment .
+        docker build -t VeeraSmart/assignment .
         # Push the Docker image to a container registry if needed
         # docker push your-registry/your-image-name
 
@@ -78,6 +78,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
     - name: Push to DockerHub
-      run: docker push VeeraSmart/Assignment  
+      run: docker push VeeraSmart/assignment  
 
    
